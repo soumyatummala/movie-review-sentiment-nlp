@@ -1,0 +1,24 @@
+{
+  "naive_bayes": {
+    "cv_accuracy_mean": 0.855,
+    "cv_accuracy_std": 0.0186,
+    "test_accuracy": 0.8375,
+    "test_f1": 0.8411
+  },
+  "logistic": {
+    "cv_accuracy_mean": 0.8713,
+    "cv_accuracy_std": 0.0126,
+    "test_accuracy": 0.8675,
+    "test_f1": 0.8685
+  },
+  "linear_svm": {
+    "cv_accuracy_mean": 0.8738,
+    "cv_accuracy_std": 0.0124,
+    "test_accuracy": 0.875,
+    "test_f1": 0.8762
+  },
+  "rows": {
+    "train": 1600,
+    "test": 400
+  }
+}
