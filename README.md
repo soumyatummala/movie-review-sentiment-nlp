@@ -52,3 +52,11 @@ reports/             metrics, confusion matrix, top terms, errors
 - Small corpus of older, long-form reviews. Short modern text such as tweets or product reviews would likely score worse.
 - Bag-of-words features cannot follow sarcasm or negation across a sentence.
 - A transformer model would probably score higher. This project is meant as a clear, checked baseline that a team can read and extend.
+
+## Charts and reports
+
+Confusion matrix for the logistic model on the 400 test reviews:
+
+![Confusion matrix](reports/confusion_matrix_logistic.png)
+
+Other files in `reports/`: [top positive words](reports/top_positive_terms.csv), [top negative words](reports/top_negative_terms.csv), and [the 53 misclassified reviews](reports/errors.csv).
